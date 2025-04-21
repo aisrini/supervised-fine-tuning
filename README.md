@@ -73,15 +73,16 @@ A human‑readable name for your fine‑tuning job.
 
 ## 📁 Project Structure
 
-├-- fireworks_finetune.py     # Main script
+├── fireworks_finetune.py     # Main script
 
-├-- .env.example              # Example env file
+├── .env.example              # Example env file
 
-├--requirements.txt          # Python dependencies
+├── requirements.txt          # Python dependencies
 
-├-- README.md                 # This file
+├── README.md                 # This file
 
-└-- fireworks_datasets/       # Local data directory
+└── fireworks_datasets/       # Local data directory
+
 
 ## 🤝 Contributing
 - Fork the repo
