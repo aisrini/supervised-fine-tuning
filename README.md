@@ -47,8 +47,8 @@ This script keeps your API credentials out of source control (via `.env`), uses 
 
 ## ⚙️ Configuration
 .env
-FIREWORKS_ACCOUNT_ID=pyroworks
-FIREWORKS_API_TOKEN=fw_3ZRUjxxa4jzHy75aKk2TAPLK
+FIREWORKS_ACCOUNT_ID=<ACCOUNT_ID>
+FIREWORKS_API_TOKEN=<YOUR_FW_API_KEY>
 
 DATA_DIR
 By default, your local JSONL will be uploaded from ./fireworks_datasets/; you can change this path in the script if needed.
@@ -58,8 +58,8 @@ python fireworks_finetune.py \
   --dataset-id trader-poe-sample-data \
   --local-file ./fireworks_datasets/trader_poe_sample_data.jsonl \
   --display-name "Trader Poe's Fine Tuning" \
-  --base-model accounts/fireworks/models/deepseek-r1-distill-llama-70b \
-  --output-model accounts/fireworks/models/deepseek-r1-distill-llama-70b-finetuned-04-15
+  --base-model accounts/<ACCOUNT_ID>/models/deepseek-r1-distill-llama-70b \
+  --output-model accounts/<ACCOUNT_ID>/models/<OUTPUT_MODEL_NAME>
 
 
 --dataset-id
