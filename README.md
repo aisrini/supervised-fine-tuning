@@ -45,6 +45,8 @@ This script keeps your API credentials out of source control (via `.env`), uses 
    FIREWORKS_ACCOUNT_ID=your_account_id_here
    FIREWORKS_API_TOKEN=your_api_token_here
 
+---
+
 ## ⚙️ Configuration
 **.env**
 FIREWORKS_ACCOUNT_ID=<ACCOUNT_ID>
@@ -52,6 +54,7 @@ FIREWORKS_ACCOUNT_ID=<ACCOUNT_ID>
 FIREWORKS_API_TOKEN=<YOUR_FW_API_KEY>
 
 
+---
 **DATA_DIR**
 - By default, your local JSONL will be uploaded from ./fireworks_datasets/; you can change this path in the script if needed.
 
@@ -73,6 +76,7 @@ Path to the .jsonl file you want to upload.
 --display-name
 A human‑readable name for your fine‑tuning job.
 
+---
 ## 📁 Project Structure
 
 ├── fireworks_finetune.py     # Main script
@@ -85,7 +89,7 @@ A human‑readable name for your fine‑tuning job.
 
 └── fireworks_datasets/       # Local data directory
 
-
+---
 ## 🤝 Contributing
 - Fork the repo
 - Create a feature branch (git checkout -b feature/foo)
@@ -93,6 +97,7 @@ A human‑readable name for your fine‑tuning job.
 - Push to the branch (git push origin feature/foo)
 - Open a Pull Request
 
+---
 ## 📜 License
 This project is licensed under the MIT License.
 
