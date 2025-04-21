@@ -48,6 +48,7 @@ This script keeps your API credentials out of source control (via `.env`), uses 
 ## ⚙️ Configuration
 .env
 FIREWORKS_ACCOUNT_ID=<ACCOUNT_ID>
+
 FIREWORKS_API_TOKEN=<YOUR_FW_API_KEY>
 
 DATA_DIR
