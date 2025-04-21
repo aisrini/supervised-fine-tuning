@@ -46,13 +46,14 @@ This script keeps your API credentials out of source control (via `.env`), uses 
    FIREWORKS_API_TOKEN=your_api_token_here
 
 ## ⚙️ Configuration
-.env
+**.env**
 FIREWORKS_ACCOUNT_ID=<ACCOUNT_ID>
 
 FIREWORKS_API_TOKEN=<YOUR_FW_API_KEY>
 
-DATA_DIR
-By default, your local JSONL will be uploaded from ./fireworks_datasets/; you can change this path in the script if needed.
+
+**DATA_DIR**
+- By default, your local JSONL will be uploaded from ./fireworks_datasets/; you can change this path in the script if needed.
 
 ## 💡 Usage
 python fireworks_finetune.py \
