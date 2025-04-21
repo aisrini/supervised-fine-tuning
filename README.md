@@ -72,7 +72,7 @@ Path to the .jsonl file you want to upload.
 A human‑readable name for your fine‑tuning job.
 
 ## 📁 Project Structure
-.
+
 ├── fireworks_finetune.py     # Main script
 ├── .env.example              # Example env file
 ├── requirements.txt          # Python dependencies
